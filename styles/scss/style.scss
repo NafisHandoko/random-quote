@@ -1,5 +1,6 @@
 // *{
 //   font-family: 'Lobster', cursive;
+//   font-family: 'Noto Sans', sans-serif;
 // }
 $color1: white;
 $color2: #9289FF;
@@ -19,8 +20,8 @@ body{
     justify-content: center;
     #quote-box{
       background-color: $color1;
-      width: 80%;
-      height: 500px;
+      width: 50%;
+      height: 480px;
       border-radius: 15px;
     }
   }

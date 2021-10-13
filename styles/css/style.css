@@ -15,8 +15,8 @@ body #wrapper {
 }
 body #wrapper #quote-box {
   background-color: white;
-  width: 80%;
-  height: 500px;
+  width: 50%;
+  height: 480px;
   border-radius: 15px;
 }
 
