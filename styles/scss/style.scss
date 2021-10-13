@@ -4,12 +4,17 @@
 // }
 $color1: white;
 $color2: #9289FF;
+$font1: 'Lobster', cursive;
+$font2: 'Noto Sans', sans-serif;
 
 body{
   background-color: $color2;
   h1{
     color: white;
     text-align: center;
+    font-family: $font2;
+    font-weight: 700;
+    padding: 20px;
   }
   #wrapper{
     padding-right: 40px;
@@ -23,6 +28,7 @@ body{
       width: 50%;
       height: 480px;
       border-radius: 15px;
+      font-family: $font1;
     }
   }
 }

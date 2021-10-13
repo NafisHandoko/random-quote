@@ -4,6 +4,9 @@ body {
 body h1 {
   color: white;
   text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  padding: 20px;
 }
 body #wrapper {
   padding-right: 40px;
@@ -18,6 +21,7 @@ body #wrapper #quote-box {
   width: 50%;
   height: 480px;
   border-radius: 15px;
+  font-family: "Lobster", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
