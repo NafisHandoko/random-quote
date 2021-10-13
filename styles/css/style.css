@@ -6,7 +6,7 @@ body h1 {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
-  padding: 20px;
+  padding-top: 30px;
 }
 body #wrapper {
   padding-right: 40px;
@@ -19,9 +19,28 @@ body #wrapper {
 body #wrapper #quote-box {
   background-color: white;
   width: 50%;
-  height: 480px;
   border-radius: 15px;
   font-family: "Lobster", cursive;
+  padding: 50px;
+}
+body #wrapper #quote-box #text, body #wrapper #quote-box #author {
+  color: #9289FF;
+}
+body #wrapper #quote-box #author {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  padding: 10px 0 10px 0;
+}
+body #wrapper #quote-box .btn-group #new-quote, body #wrapper #quote-box .btn-group #tweet-quote {
+  background-color: #9289FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  font-family: "Noto Sans", sans-serif;
+}
+body #wrapper #quote-box .btn-group #tweet-quote {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
