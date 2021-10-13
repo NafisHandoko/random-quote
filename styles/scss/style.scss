@@ -1,10 +1,27 @@
 // *{
 //   font-family: 'Lobster', cursive;
 // }
+$color1: white;
+$color2: #9289FF;
+
 body{
-  background-color: red;
+  background-color: $color2;
   h1{
     color: white;
-    text-align: right;
+    text-align: center;
+  }
+  #wrapper{
+    padding-right: 40px;
+    padding-left: 40px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #quote-box{
+      background-color: $color1;
+      width: 80%;
+      height: 500px;
+      border-radius: 15px;
+    }
   }
 }

@@ -1,9 +1,23 @@
 body {
-  background-color: red;
+  background-color: #9289FF;
 }
 body h1 {
   color: white;
-  text-align: right;
+  text-align: center;
+}
+body #wrapper {
+  padding-right: 40px;
+  padding-left: 40px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #wrapper #quote-box {
+  background-color: white;
+  width: 80%;
+  height: 500px;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
