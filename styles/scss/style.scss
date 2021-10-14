@@ -42,6 +42,9 @@ body{
       }
       .btn-group{
         align-self: end;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         #new-quote{
           background-color: $color2;
           color: $color1;
@@ -52,6 +55,12 @@ body{
         }
         #tweet-quote{
           @extend #new-quote;
+          margin-left: 10px;
+        }
+        .repo{
+          text-decoration: none;
+          color: $color2;
+          font-family: $font2;
           margin-left: 10px;
         }
       }

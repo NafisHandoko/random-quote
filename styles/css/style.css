@@ -35,6 +35,9 @@ body #wrapper #quote-box #author {
 }
 body #wrapper #quote-box .btn-group {
   align-self: end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 body #wrapper #quote-box .btn-group #new-quote, body #wrapper #quote-box .btn-group #tweet-quote {
   background-color: #9289FF;
@@ -45,6 +48,12 @@ body #wrapper #quote-box .btn-group #new-quote, body #wrapper #quote-box .btn-gr
   font-family: "Noto Sans", sans-serif;
 }
 body #wrapper #quote-box .btn-group #tweet-quote {
+  margin-left: 10px;
+}
+body #wrapper #quote-box .btn-group .repo {
+  text-decoration: none;
+  color: #9289FF;
+  font-family: "Noto Sans", sans-serif;
   margin-left: 10px;
 }
 
