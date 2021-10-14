@@ -56,5 +56,9 @@ body #wrapper #quote-box .btn-group .repo {
   font-family: "Noto Sans", sans-serif;
   margin-left: 10px;
 }
+body footer {
+  text-align: center;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
