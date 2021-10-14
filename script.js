@@ -1,7 +1,7 @@
 $('#new-quote').click(() => {
   $.getJSON('https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?',(json) => {
-    console.log(json.quoteText);
     $('#text').text(json.quoteText);
-    $('#author').text(json.quoteAuthor);
+    $('#author').text('- '+json.quoteAuthor);
+    $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + json.quoteText + '" ' + json.quoteAuthor));
   })
 })
