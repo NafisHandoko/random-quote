@@ -25,10 +25,12 @@ body{
     justify-content: center;
     #quote-box{
       background-color: $color1;
-      width: 50%;
+      max-width: 480px;
       border-radius: 15px;
       font-family: $font1;
       padding: 50px;
+      display: flex;
+      flex-direction: column;
       #text{
         color: $color2;
       }
@@ -39,6 +41,7 @@ body{
         padding: 10px 0 10px 0;
       }
       .btn-group{
+        align-self: end;
         #new-quote{
           background-color: $color2;
           color: $color1;
