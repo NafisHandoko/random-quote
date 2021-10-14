@@ -1,4 +1,12 @@
-const colorArr = ['#9289FF','red','blue'];
+const colorArr = [
+  '#9289FF',
+  '#61AAFF',
+  '#64C06D',
+  '#C2D574',
+  '#FA7171',
+  '#EFA46D',
+  '#E06DCE',
+];
 
 const fetchData = () => {
   $.getJSON('https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?',(json) => {
