@@ -1,10 +1,8 @@
 $color1: white;
-$color2: #9289FF;
 $font1: 'Lobster', cursive;
 $font2: 'Noto Sans', sans-serif;
 
 body{
-  background-color: $color2;
   h1{
     color: white;
     text-align: center;
@@ -27,12 +25,8 @@ body{
       padding: 50px;
       display: flex;
       flex-direction: column;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-      #text{
-        color: $color2;
-      }
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
       #author{
-        @extend #text;
         font-family: $font2;
         font-weight: 400;
         padding: 10px 0 10px 0;
@@ -43,7 +37,6 @@ body{
         flex-direction: row;
         align-items: center;
         #new-quote{
-          background-color: $color2;
           color: $color1;
           border: none;
           border-radius: 10px;
@@ -54,9 +47,11 @@ body{
           @extend #new-quote;
           margin-left: 10px;
         }
+        #tweet-quote:hover, #new-quote:hover{
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
         .repo{
           text-decoration: none;
-          color: $color2;
           font-family: $font2;
           margin-left: 10px;
         }
