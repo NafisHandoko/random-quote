@@ -64,6 +64,7 @@ This project is part of the submission for freeCodeCamp Front End Development Li
 
 Here's a list of the technologies I used to build this project
 
+* [Forismatic API](http://forismatic.com/en/)
 * [SASS](https://sass-lang.com)
 * [JQuery](https://jquery.com)
 * And a little help of [Bootstrap](https://getbootstrap.com)
